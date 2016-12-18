@@ -32,11 +32,10 @@ class String
 		
 		
 		
-		for(i = 0; a[i]!='\0'; i++)
-		{
-				cout<< a[i];	
+	
+				cout<< a;	
 		
-		}
+		
 			
 	}
 	
@@ -89,6 +88,7 @@ int main()
 		cout<<"\n";
 		str1.putstring();
 		cout<<"\n";
+		str2.putstring();
 		k = str1.str_length();
 		cout<<"The length is : "<<"\n"<<k;
 		flag = str1.str_cmp(str2);
